@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="welcom"> java</p>
+    <p class="hello"> java script</p>
+    <p class="hello"> java script1</p>
+    <p class="hello"> java script2</p>
+    <script type="text/javascript">
+        var a = document.getElementById("welcom").innerHTML;
+        document.write(a);
+    </script>
+
+
+     <script type="text/javascript">
+         var b = document.getElementsByClassName("hello")[1].innerHTML;
+        document.write(b);
+     </script>
+
+
+     <script type="text/javascript">
+        var c = document.getElementsByTagName("p");
+       document.write(c);
+       console.log(c);
+    </script>
+
+    <script type="text/javascript">
+        var p = document.querySelector("p").innerHTML;
+        document.write(p);
+    </script>
+</body>
+</html>

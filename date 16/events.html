@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>welcome to the javascript events</h1>
+
+
+    <button onkeydown="myfun()"> click me</button>
+
+
+    <button onkeypress="mytwitter()"> click me</button>
+    <button onkeyup="mywahtsapp()"> click me</button>
+    <button onmouseout="myyoutube()"> click me</button>
+
+    <script type="text/javascript">
+        function myfun(){
+            document.body.style.backgroundColor = "#3b5999";
+            document.body.style.color = "white"
+        }
+
+        function mytwitter(){
+            document.body.style.backgroundColor = "#00aced";
+            document.body.style.color = "white"
+        }
+
+        function mywahtsapp(){
+            document.body.style.backgroundColor = "#25d366";
+            document.body.style.color = "white"
+        }
+
+        function myyoutube(){
+            document.body.style.backgroundColor = "#cd201f";
+            document.body.style.color = "white"
+        }
+    </script>
+</body>
+</html>
